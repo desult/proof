@@ -7,7 +7,6 @@ function updateGarment(e) {
   colortext.innerHTML = e.dataset.color.toUpperCase(); }
 
 // Load an image that a user loads
-// .inpfileLoad #proof #design
 const inpFileLoad = document.getElementById("inpFileLoad");
 const divDesign = document.getElementById("divDesign");
 const imgDesign = document.getElementById("imgDesign");
@@ -22,16 +21,3 @@ inpFileLoad.addEventListener("change", function() {
       reader.readAsDataURL(file);
   }
 });
-
-
-
-
-// garment = document.querySelector('#proof');
-// function updateGarment(e) {
-//  garment.style.backgroundImage = "url(" +  e.dataset.im + ")";
-// }
-
-
-// garment = document.querySelector('#garment');
-// function updateGarment(e) {
-//   garment.src=e.dataset.im; }
