@@ -13,3 +13,7 @@ I like that the user can upload any image, that makes the page useful while only
 ### SVG?
 
 I'm thinking about making the design image an SVG. That would allow the user to not only select the garment color, but they would also be able to select ink colors for the design. That is easy to do if I create a unique page for every design. I'm not sure how to do that if I allow the customer to upload an image. Also, I don't want to provide customers with SVG fles for them to use with thios app.
+
+### Sass?
+
+I'm still using Sass to ohandle variables in CSS. CSS now supports variables, so I'm not sure why I am still using Sass. I do like the way Sass looks, but is that a good reason?
