@@ -3,8 +3,9 @@ function updateGarment(e) {
   let garment = document.querySelector('#proof');
   let garmenturl = e.dataset.im; //image URL
   let colortext = document.getElementById('colortext');
-  garment.style.backgroundImage = `url(\" ${garmenturl} \")`;
-  colortext.innerHTML = e.dataset.color.toUpperCase(); }
+  garment.style.backgroundImage = `url(\"${garmenturl}\")`;
+  colortext.innerHTML = e.dataset.color.toUpperCase();
+}
 
 // Load an image that a user loads
 const inpFileLoad = document.getElementById("inpFileLoad");
